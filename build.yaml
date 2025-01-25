@@ -20,17 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: corne_left nice_oled
+    shield: corne_left
   - board: nice_nano_v2
-    shield: corne_right nice_oled
-
-#oled:
-#  driver: ssd1306
-#  i2c:
-#    bus: 0
-#    address: 0x3C
-#  text:
-#    font: 5x8
-#    color: white
-#    position: center
-#    content: "Layer: {layer}"
+    shield: corne_right
